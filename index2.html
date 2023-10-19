@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise2</title>
+<style>
+.menu ul {
+  list-style: none;
+  padding: 15;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 10;
+}
+
+.menu ul li:hover > ul {
+  display: block;
+}
+</style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+          <li><a href="#">Уровень 1</a>
+            <ul>
+              <li><a href="#">Подуровень 1.1</a>
+                <ul>
+                  <li><a href="#">Подподуровень 1.1.1</a></li>
+                  <li><a href="#">Подподуровень 1.1.2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Подуровень 1.2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Уровень 2</a>
+            <ul>
+              <li><a href="#">Подуровень 2.1</a></li>
+              <li><a href="#">Подуровень 2.2</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Уровень 3</a>
+            <ul>
+              <li><a href="#">Подуровень 3.1</a></li>
+              <li><a href="#">Подуровень 3.2</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
